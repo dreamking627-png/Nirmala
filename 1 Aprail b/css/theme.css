@@ -1,0 +1,23 @@
+/* Theme variables will be set dynamically by app.js */
+:root {
+    /* fallback, will be overridden */
+    --primary: #3b82f6;
+    --bg-color: #0f0f1a;
+    --container-bg: #1a1a2e;
+    --header-bg: #16213e;
+    --chat-bg: #0f0f1a;
+    --user-bubble: #3b82f6;
+    --user-text: #ffffff;
+    --ai-bubble: #2d3748;
+    --ai-text: #e2e8f0;
+    --input-bg: #1a1a2e;
+    --input-text: #ffffff;
+    --border-color: #2d3a5e;
+    --status-text: #94a3b8;
+    --font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --font-size: 15px;
+    --heading-size: 22px;
+    --border-radius: 32px;
+    --bubble-radius: 24px;
+    --input-radius: 40px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title id="pageTitle">AI Assistant</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Config first (as modules) -->
+    <script type="module" src="config/api.js"></script>
+    <script type="module" src="config/models.js"></script>
+    <script type="module" src="config/theme.js"></script>
+    
+    <!-- Utils & Providers -->
+    <script type="module" src="js/utils/helpers.js"></script>
+    <script type="module" src="js/providers/gemini.js"></script>
+    <script type="module" src="js/providers/groq.js"></script>
+    
+    <!-- Core -->
+    <script type="module" src="js/core/storage.js"></script>
+    <script type="module" src="js/core/ui.js"></script>
+    <script type="module" src="js/core/api-router.js"></script>
+    <script type="module" src="js/core/app.js"></script>
+</body>
+</html>
